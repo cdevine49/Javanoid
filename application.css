@@ -1,0 +1,13 @@
+canvas {
+  display: block;
+  margin: auto;
+}
+
+ol {
+  padding-top: 20px;
+  padding-left: 0;
+  display: block;
+  list-style-position: inside;
+  margin: auto;
+  width: 600;
+}
