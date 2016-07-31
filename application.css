@@ -2,7 +2,7 @@ canvas {
   display: block;
   margin: auto;
 }
-
+/*
 ol {
   padding-top: 20px;
   padding-left: 0;
@@ -10,4 +10,19 @@ ol {
   list-style-position: inside;
   margin: auto;
   width: 600;
+}*/
+
+p {
+  padding-top: 20px;
+  padding-left: 0;
+  display: block;
+  margin: auto;
+  width: 600;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+  font-style: sans-serif;
 }
