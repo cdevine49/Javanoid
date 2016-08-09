@@ -2,27 +2,26 @@ canvas {
   display: block;
   margin: auto;
 }
-/*
-ol {
-  padding-top: 20px;
-  padding-left: 0;
-  display: block;
-  list-style-position: inside;
-  margin: auto;
-  width: 600;
-}*/
 
-p {
+footer {
   padding-top: 20px;
   padding-left: 0;
-  display: block;
+  display: flex;
   margin: auto;
   width: 600;
 }
 
 a {
+  flex: 1 100%;
+  display: flex;
   text-decoration: none;
   color: blue;
   font-size: 16px;
   font-style: sans-serif;
+}
+
+img {
+  margin: auto;
+  width: 40;
+  height: 40;
 }

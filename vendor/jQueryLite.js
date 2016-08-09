@@ -134,8 +134,6 @@
     var results = [];
 
     this.forEach(function (el) {
-      // debugger
-      // var parents = [].slice.call(el.parentNode);
       results = results.concat(el.parentNode);
     });
 
@@ -146,7 +144,6 @@
     var nodes = [];
 
     this.forEach(function (el) {
-      // debugger
       var node = [].slice.call(el.querySelectorAll(selector));
       nodes = nodes.concat(node);
     });
