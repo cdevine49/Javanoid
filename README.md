@@ -5,3 +5,13 @@ Javanoid is a browser game built with javascript and canvas.  The player uses hi
 [Wanna play?](http://www.conorjdevine.com/Javanoid)
 
 ![game](assets/images/new-game.png)
+
+## Technical
+
+When a block is instantiated, a random number generator determines what if any bonus is will contain.
+
+[](assets/images/blockPrize.png)
+
+Once that block is hit by the cannonball, a new bonus object is created with its properties determined by the block which contained it.
+
+[](assets/images/prizeDrop.png)
